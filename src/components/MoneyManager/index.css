@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+.money-manager-container {
+  width: 80%;
+  max-width: 550px;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 170px;
+  margin-top: 64px;
+}
+
+.heading {
+  color: #475569;
+  font-size: 24px;
+  font-family: Roboto;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.header-content {
+  color: #475569;
+  font-size: 14px;
+  font-family: Roboto;
+  margin: 0px;
+}
+
+.transaction-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 424px;
+  width: 100%;
+  border: 1px solid #cbd5e1;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.transactions-table-container {
+  height: 100%;
+  border-radius: 8px;
+}
+
+.transactions-table {
+  padding-left: 0;
+  margin: 0px;
+}

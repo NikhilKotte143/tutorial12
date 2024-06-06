@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.details-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+.details-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ecfccb;
+  border-radius: 16px;
+}
+.details-image {
+  height: 64px;
+  width: 64px;
+  margin: 24px;
+}
